@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mind;
+    src: url(../fonts/MindTheCaps-DEMOVERSION.ttf);
+}
+
+html , body {
+
+    height: 80vh;
+}
+
+body {
+    background: url(../img/8c1ba59ae48253e19d3ebf9c027dcaa9.jpg) no-repeat;
+    background-size: 100% 150%;
+
+}
+
+#container-login {
+    margin-top: 10%;
+    display: flex;
+}
+
+.cont-1 {
+    background: #408BC1 url(../img/alou\ \(1\).png) no-repeat center center;    
+    background-size: 150% 110%;
+    width: 50%;
+    color: #fff;
+    padding: 3%;
+    
+}
+
+.cont-1 p {
+    font-size: 1.5em;
+    padding: 27% 0;
+}
+
+.rodape {
+    font-size: 0.8em;
+    
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cont-2 {
+    background: #fff;
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cont-2 input {
+    margin-top: 11%;
+    margin-bottom: 10%;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 0 0 0 3%;
+    height: 40px;
+}
+
+.cont-2 button {
+    border-radius: 100px;
+}
+
+.img-login {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px)
+{
+    .cont-1 p {
+        font-size: 0.9em;
+        padding: 20% 0;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    body {
+
+        background-size: 100% 125%;
+    }
+
+    .cont-2 {
+       border-radius: 20px;
+        width: 68%;
+        
+        margin: 15% auto;
+    }
+}
