@@ -77,6 +77,22 @@ body {
     margin: 0 auto;
 }
 
+
+/* Pagina home */
+.nick_chamados {
+    text-align: center;
+    border: 1px solid red;
+}
+
+#chama {
+    border: 2px solid red;
+}
+
+section {
+    background-color: #000;
+}
+
+
 @media (max-width: 768px)
 {
     .cont-1 p {
